@@ -14,7 +14,7 @@ Usage:
   python analyzer.py logs/honeypot_events.jsonl
   python analyzer.py logs/honeypot_events.jsonl --format markdown --output report.md
   python analyzer.py logs/honeypot_events.jsonl --auto-report reports/
-  python analyzer.py logs/honeypot_events.jsonl --live          # live tail mode
+  python analyzer.py logs/honeypot_events.jsonl --live         
 """
 
 from __future__ import annotations
